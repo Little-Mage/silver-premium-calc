@@ -9,18 +9,19 @@
 </head>
 
 <body>
-<h1>Shogi Ganar Handicap</h1>
-<h2 style="text-align: left;">Calculator</h2>
-
+<h1>Silver Premium Calculator</h1>
 <p style="margin-bottom: 3px;">v0.9</p>
 
-<label for="sensei">Sensei rango:</label><br>
-<input type="text" id="sensei" name="sensei" maxlength='3' required>
+<label for="price">Coin price:</label><br>
+<input type="text" id="price" name="price" maxlength='5' required>
 <br>
-<label for="h">Handicap Piezas:</label><br>
-<input type="text" id="h" name="h" maxlength='2' required><br>
-
-<button onclick="handicap_input()">Calcular</button>
+<label for="s">Silver value:</label><br>
+<input type="text" id="s" name="s" maxlength='4' required>
+<br>
+<label for="t">Troy ounces:</label><br>
+<input type="text" id="t" name="t" maxlength='6' required>
+<br>
+<button onclick="premium_calc()">Calc</button>
 
 <p id='p1'>Premium:</p>
 <p id='p2'>Percent:</p>
