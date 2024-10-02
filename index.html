@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silver Premium Calculator</title>
+    <link rel="stylesheet" href="/rangos/styles.css">
+</head>
+
+<body>
+<h1>Shogi Ganar Handicap</h1>
+<h2 style="text-align: left;">Calculator</h2>
+
+<p style="margin-bottom: 3px;">v0.9</p>
+
+<label for="sensei">Sensei rango:</label><br>
+<input type="text" id="sensei" name="sensei" maxlength='3' required>
+<br>
+<label for="h">Handicap Piezas:</label><br>
+<input type="text" id="h" name="h" maxlength='2' required><br>
+
+<button onclick="handicap_input()">Calcular</button>
+
+<p id='p1'>Premium:</p>
+<p id='p2'>Percent:</p>
+
+<script src="premium.js"></script>
+</body>
+
+</html>
